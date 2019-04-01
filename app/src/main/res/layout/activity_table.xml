@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:layout_marginTop="100dp"
+    android:layout_marginStart="50dp"
+    android:layout_marginBottom="100dp"
+    android:layout_marginEnd="50dp"
+    tools:context=".TableActivity">
+
+    <TextView
+        android:text="Priyal Shrimali - 53003160092"
+        android:textSize="24sp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@android:color/background_dark"/>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text="3" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text="6" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text="9" />
+    </TableRow>
+</TableLayout>
+

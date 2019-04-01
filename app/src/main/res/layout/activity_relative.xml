@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeActivity">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Priyal Shrimali - 53003160092"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:textColor="@android:color/background_dark"/>
+
+    <TextView
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Relative Layout"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:layout_below="@+id/name"
+        android:textColor="@android:color/background_dark"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Need to define ID and set layout according to it."
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:layout_below="@+id/layout"
+        android:textColor="@android:color/background_dark"/>
+
+
+</RelativeLayout>
